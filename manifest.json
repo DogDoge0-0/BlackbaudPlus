@@ -1,0 +1,42 @@
+{
+  "name": "BlackbaudPlus Dev Build",
+  "description": "An extension to improve the way Blackbaud functions. Very customizable. Dev Build",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "JS/background.js",
+    "web_accessible_resources": [
+      "CSS/dark.css",
+      "CSS/spooky.css",
+      "CSS/light.css"
+    ]
+  },
+  "action": {
+    "default_popup": "HTML/popup.html"
+  },
+  "icons": {
+    "16": "IMG/icon-16.png",
+    "48": "IMG/icon-48.png",
+    "128": "IMG/icon-128.png",
+    "155": "IMG/icon-155.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://bwl.myschoolapp.com/*",
+        "https://app.blackbaud.com/*"
+      ],
+      "js": [
+        "JS/displayModeLink.js",
+        "JS/showPercentLink.js"
+      ],
+      "css": [
+        "CSS/displayMode.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}

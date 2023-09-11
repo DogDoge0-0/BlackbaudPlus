@@ -1,0 +1,537 @@
+/* Light mode */
+
+html {
+  filter: none;
+}
+html.light-mode div#assignment-detail-linked-content div a:hover {
+	text-decoration: underline solid #007ca6;
+	color: #007ca6!important;
+}
+
+html.light-mode input#assignmentSearchBox,
+html.light-mode input#assignmentFilterEndDatePicker,
+html.light-mode input#assignmentFilterStartDatePicker {
+	border-radius: 5px;
+}
+
+html.light-mode a.topic-back-btn,
+html.light-mode div#BackButton div, 
+html.light-mode div#BackButton div * {
+	background-color: #fafafa!important;
+	border: 1px solid #2e2e2e!important;
+	border-radius: 10px!important;
+	margin: 5px!important;
+	padding: 5px!important;
+	text-decoration: none!important;
+	background-image: none!important;
+}
+
+html.light-mode a.topic-back-btn:hover,
+html.light-mode div#BackButton div:hover,
+html.light-mode div#BackButton div *:hover {
+	text-decoration: underline!important;
+}
+
+html.light-mode div#BackButton:hover {
+	text-decoration: none!important;
+}
+
+/* Dark mode */
+html.dark-mode img.bb-logo {
+	filter: invert(1)!important;
+}
+
+html.dark-mode div.sky-overlay-position-fixed {
+  background-color: transparent!important;
+}
+
+html.dark-mode span.chCal-button-inner {
+  background-color: #333!important;
+}
+
+html.dark-mode div#site-main div,
+html.dark-mode div#site-main div {
+	background-color: #2e2e2e!important;
+}
+
+html.dark-mode,
+html.dark-mode body,
+html.dark-mode .dir2ItemButtonsWrap tbody tr td table tbody tr td table tbody tr td {
+  background: #333!important;
+  color: #fff!important;
+}
+
+html.dark-mode td.dir2ItemButtonAlt,
+html.dark-mode td.dir2ItemButton {
+  background: #333!important;
+  border-radius: 0!important;
+  border-color: #5c5c5c!important;
+}
+
+html.dark-mode td.assignment-list-title-cell * {
+	background: inherit!important;
+}
+
+html.dark-mode div#site-header-container * {
+	background: transparent!important;
+}
+
+html.dark-mode div#site-main div label.control-label {
+	z-index: 100!important;
+	background: transparent!important;
+}
+
+html.dark-mode div#site-main div div.form-group *,
+html.dark-mode div#site-main div div.form-group,
+html.dark-mode div.range-start-date {
+	background: transparent!important;
+}
+
+html.dark-mode div .ui-state-hover {
+	background: #0073ea!important;
+}
+
+html.dark-mode .ui-state-default {
+	background: transparent!important;
+	color: #fff!important;
+}
+
+html.dark-mode div.subnav {
+	z-index: 100!important;
+}
+
+html.dark-mode div.subnav div input {
+	border: 2px solid #333!important;
+	border-radius: 2px!important;
+}
+
+html-dark-mode div#site-main div div.tox-anchorbar {
+	background-color: #ccc!important;
+	width: 1px!important;
+}
+
+html.dark-mode div.tox-toolbar__overflow {
+	display: flex!important;
+	justify-content: center!important;
+}
+
+html.dark-mode body.tinymce,
+html.dark-mode div,
+html.dark-mode div.sky-alert-content,
+html.dark-mode label,
+html.dark-mode h1,
+html.dark-mode h2,
+html.dark-mode h3,
+html.dark-mode h4,
+html.dark-mode h5,
+html.dark-mode p,
+html.dark-mode span,
+html.dark-mode td,
+html.dark-mode th,
+html.dark-mode li,
+html.dark-mode a,
+html.dark-mode div.bb-page-heading,
+html.dark-mode div.thumbnail,
+html.dark-mode div.link-region,
+html.dark-mode div.accordion-body,
+html.dark-mode select,
+html.dark-mode div.sky-font-deemphasized,
+html.dark-mode div.sky-action-button-header,
+html.dark-mode div.sky-action-button-details sky-font-deemphasized,
+html.dark-mode strong,
+html.dark-mode button {
+  color: #fff!important;
+}
+
+html.dark-mode div.sky-alert-info,
+html.dark-mode label,
+html.dark-mode a,
+html.dark-mode td,
+html.dark-mode button {
+  border-color: #4f4f4f!important;
+}
+
+html.dark-mode div.gradebook-analysis button.btn-link {
+	border: none!important;
+	color: #1c84c6!important;
+	
+}
+
+html.dark-mode iframe#online-submission-text_ifr,
+html.dark-mode div#site-main table.fc-header td.fc-header-right div.pull-right,
+html.dark-mode div#site-main div td.cell-message *,
+html.dark-mode sky-tile-dashboard,
+html.dark-mode sky-key-info-value,
+html.dark-mode div,
+html.dark-mode th,
+html.dark-mode a,
+html.dark-mode select,
+html.dark-mode label,
+html.dark-mode li,
+html.dark-mode div.popContainerStraight,
+html.dark-mode div.popover-content,
+html.dark-mode .day,
+html.dark-mode button {
+  background-color: #333!important;
+}
+
+html.dark-mode tbody.detail,
+html.dark-mode tr,
+html.dark-mode td {
+	background-color: inherit!important;
+}
+
+html.dark-mode div.bb-tile-content-section * {
+	text-shadow: none!important;
+	box-shadow: none!important;
+}
+
+html.dark-mode tr.popContainerStraight {
+	border: none!important;
+}
+
+html.dark-mode div.sky-omnibar-theme-background,
+html.dark-mode div.sky-omnibar-left,
+html.dark-mode div.sky-omnibar-right,
+html.dark-mode div#site-header-container {
+	background-color: #121f49!important;
+}
+
+html.dark-mode span.fc-button-content,
+html.dark-mode span.fc-button-content *,
+html.dark-mode li.active > *,
+html.dark-mode div#site-nav-container, 
+html.dark-mode div#site-nav-container * {
+	background-color: #404040!important;
+	background-image: none!important;
+}
+
+html.dark-mode td button {
+  border: none;
+}
+
+html.dark-mode div#site-main div label.active {
+	background-color: #404040!important;
+}
+
+html.dark-mode div.coursesContainer div:hover,
+html.dark-mode a *:hover {
+  background-color: #404040!important;
+}
+
+html.dark-mode div.progress-bar {
+	background-color: #71bf43!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.completed .indicator-field,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.completed .indicator-field *,
+html.dark-mode div#site-main div span.label-success {
+  background-color: #b7da9b!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.inprogress .indicator-field,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.inprogress .indicator-field *,
+html.dark-mode div#site-main div span.label-warning {
+  background-color: #ffd597!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.todo .indicator-field,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.todo .indicator-field *,
+html.dark-mode div#site-main div span.label-todo {
+  background-color: #beaedd!important;
+}
+
+html.dark-mode div#site-main div div.assignment-detail-header.overdue,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.overdue .indicator-field,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.overdue .indicator-field *,
+html.dark-mode div#site-main div span.label-danger {
+  background-color: #e4c7c6!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.completed,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.completed > * {
+	background-color: #dbf3db!important;
+	color: black!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.inprogress,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.inprogress > * {
+  background-color: #fae9d0!important;
+	color: black!important;
+}
+
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.todo,
+html.dark-mode div#site-main div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile div.assignment-detail-header.todo > * {
+	background-color: #d3f1fb!important;
+	color: black!important;
+}
+
+html.dark-mode div#site-main div td div.mt-3,
+html.dark-mode div#site-main div td div.mt-3 > * {
+	background-color: inherit!important;
+}
+
+html.dark-mode svg {
+	fill: #e2e3e4!important;
+}
+
+html.dark-mode #site-nav DIV.subnav UL > li > a.active,
+html.dark-mode #site-nav DIV.subnav UL > li > a.active *,
+html.dark-mode div#site-nav-container #site-nav UL.topnav > LI > a.active,
+html.dark-mode div#site-nav-container #site-nav UL.topnav > LI > a.active *,
+html.dark-mode tbody#assignment-center-assignment-items tr:nth-child(odd),
+html.dark-mode tbody#assignment-center-assignment-items tr:nth-child(odd) button,
+html.dark-mode tbody#assignment-center-assignment-items tr:nth-child(odd) a,
+html.dark-mode tbody#assignment-center-assignment-items tr:nth-child(odd) div,
+html.dark-mode tbody#assignment-center-assignment-items tr:nth-child(odd) > * {
+  background-color: #2e2e2e!important;
+	background-image: none!important;
+}
+
+html.dark-mode div#site-nav-bottom.sec-50-bgc {
+	background-color: #2e2e2e!important;
+}
+
+html.dark-mode a.assignment-time-filter :nth-child(3) {
+	border-bottom: 1px solid #e2e3e4;
+}
+
+html.dark-mode div.popContainerStraight {
+	color: #333!important;
+	background-image: none!important;
+	background-repeat: none!important;
+	border: none!important;
+	text-shadow: none!important;
+	box-shadow: none!important;
+}
+
+html.dark-mode div#site-login-content div#site-login-footer div a {
+	background-color: #2e2e2e!important;
+}
+
+html.dark-mode div#site-main div a.status-type-filter,
+html.dark-mode div#site-main div a.status-type-filter *,
+html.dark-mode div#site-main div a.assignment-time-filter,
+html.dark-mode div#site-main div a.assignment-time-filter *,
+html.dark-mode div#site-main div a.assignment-type-filter,
+html.dark-mode div#site-main div a.assignment-type-filter *,
+html.dark-mode div#site-main div tbody#assignment-center-assignment-items tr:nth-child(even) button,
+html.dark-mode div#site-main div tbody#assignment-center-assignment-items tr:nth-child(even) a,
+html.dark-mode div#site-main div tbody#assignment-center-assignment-items tr:nth-child(even) div,
+html.dark-mode div#site-main div tbody#assignment-center-assignment-items tr:nth-child(even) > * {
+  background-color: #333!important;
+}
+
+html.dark-mode tbody.assignment-center-assignment-items tr *:hover {
+	background-color: inherit!important;
+}
+
+html.dark-mode a.topic-back-btn {
+	background-color: initial!important;
+}
+
+html.dark-mode div#assignment-detail-linked-content div a:hover {
+	text-decoration: underline solid #e2e3e4;
+}
+
+html.dark-mode a.topic-back-btn,
+html.dark-mode div#BackButton div, 
+html.dark-mode div#BackButton div * {
+	background-color: #333!important;
+	border: 1px solid #333!important;
+	border-radius: 10px!important;
+	margin: 5px!important;
+	padding: 5px!important;
+	background-image: none!important;
+}
+
+html.dark-mode span.datelabel {
+	background-color: #404040!important;
+}
+
+html.dark-mode div.grad-region {
+	border-color: #fff!important;
+}
+
+html.dark-mode input#assignmentSearchBox,
+html.dark-mode input#assignmentFilterEndDatePicker,
+html.dark-mode input#assignmentFilterStartDatePicker {
+	background-color: #404040!important;
+	border-radius: 5px;
+}
+
+html.dark-mode a.topic-back-btn,
+html.dark-mode div#BackButton div,
+html.dark-mode div#BackButton div * {
+	background-color: #333!important;
+	border: 1px solid #fff!important;
+	border-radius: 10px!important;
+	margin: 5px!important;
+	padding: 5px!important;
+	text-decoration: none!important;
+	background-image: none!important;
+}
+
+html.dark-mode a.topic-back-btn:hover,
+html.dark-mode div#BackButton div:hover,
+html.dark-mode div#BackButton div *:hover {
+	text-decoration: underline!important;
+}
+
+html.dark-mode div#site-main div {
+	background-color: #333!important;
+}
+
+html.dark-mode div#assignment-detail-assignment div {
+	background-color: #2e2e2e!important;
+	border-top: 2px soild #cdcfd2!important;
+}
+
+html.dark-mode div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile {
+	background-color: #2e2e2e!important;
+	border-top: 2px soild #cdcfd2!important;	
+}
+
+html.dark-mode div#original-layout-container div.bb-page-content-tile-column section#assignment-status-tile * {
+	background-color: #2e2e2e!important;
+}
+
+html.dark-mode div#assignment-detail-linked-content div {
+	background-color: #333!important;
+}
+
+html.dark-mode div.bb-tile-content-section ul,
+html.dark-mode div.bb-tile-content-section li {
+	background: inherit!important;
+}
+
+html.dark-mode label.bb-check-wrapper,
+html.dark-mode label.ml-5,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) td.inner-condensed-table,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) tbody tr {
+	background-color: #2e2e2e!important;
+}
+
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even),
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) button,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) h4,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) p,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) a,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) div,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(even) > * {
+  background-color: #333!important;
+}
+
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd),
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) button,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) h4,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) p,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) a,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) div,
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-child(odd) > * {
+  background-color: #2e2e2e!important;
+}
+
+html.dark-mode div#site-main div div.label-info {
+  background-color: #81d4f7!important;
+}
+
+html.dark-mode div#site-main div div div.label-warning {
+  background-color: #ffd597!important;
+}
+
+html.dark-mode div#site-main div div.label {
+  background-color: #fff!important;
+}
+
+html.dark-mode div#site-main div div.label-info {
+  background-color: #81d4f7!important;
+}
+
+html.dark-mode div#site-main div div.label-success {
+  background-color: #b7da9b!important;
+}
+
+html.dark-mode div#site-nav-lower {
+  box-shadow: inset 0 2px 0 #fff, 0 5px 10px rgb(0, 0, 0);
+  -webkit-border-radius: 0;
+  -webkit-box-shadow: inset 0 2px 0 #fff, 0 5px 10px rgb(0, 0, 0);
+  border-radius: 0;
+  border-width: 0 0 1px;
+}
+
+html.dark-mode div#assignment-detail-linked-content div a {
+  background-color: #333!important;
+}
+
+html.dark-mode div#assignment-detail-assignment div div.bb-tile-content-section div.btn-group,
+html.dark-mode div#site-main div div.bb-page-content-tile-column {
+  background-color: transparent!important;
+}
+
+html.dark-mode div.truffle-sidebar-mouse-enter-detector {
+  background-color: transparent!important;
+}
+
+html.dark-mode h6#more {
+  color: #fff!important;
+}
+
+html.dark-mode div.fadeBox {
+  border: 1px solid #4f4f4f!important;
+  border-radius: 5px;
+}
+
+html.dark-mode .nav-tabs>li.active>a {
+  background-color: #007ca6!important;
+  border-bottom: #007ca6!important;
+  border: transparent!important;
+}
+
+html.dark-mode .nav-tabs>li.active {
+  border-bottom: #007ca6!important;
+}
+
+html.dark-mode .nav-tabs>li>a {
+  border-bottom: 0!important;
+}
+
+html.dark-mode ul.nav-pills li a:hover {
+  background-color: #4f4f4f!important;
+}
+
+html.dark-mode ul.nav-pills li a i:hover {
+  background-color: #4f4f4f!important;
+}
+/* Spooky mode */
+html.spooky-mode {
+  filter: invert(1);
+}
+
+html.spooky-mode div#BackButton div, 
+html.spooky-mode div#BackButton div * {
+	background-color: #fafafa!important;
+	border: 1px solid #2e2e2e!important;
+	border-radius: 10px!important;
+	margin: 5px!important;
+	padding: 5px!important;
+	text-decoration: none!important;
+	background-image: none!important;
+}
+
+html.spooky-mode a.topic-back-btn:hover,
+html.spooky-mode div#BackButton div:hover,
+html.spooky-mode div#BackButton div *:hover {
+	text-decoration: underline!important;
+}
+
+html.spooky-mode div#assignment-detail-linked-content div a:hover {
+	text-decoration: underline solid #007ca6;
+	color: #007ca6!important;
+}
+
+html.spooky-mode input#assignmentSearchBox,
+html.spooky-mode input#assignmentFilterEndDatePicker,
+html.spooky-mode input#assignmentFilterStartDatePicker {
+	border-radius: 5px;
+}
