@@ -9,6 +9,6 @@ An extension to improve the way Blackbaud functions. Very customizable.
 - None as of now
 
 ### Links
-- [Trello](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board){:target="_blank"}
+- [Trello](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board)
 
-- [Dev Build](https://replit.com/@CodeClash/DOB-Permit-Viewer?v=1){:target="_blank"}
+- [Dev Build](https://replit.com/@CodeClash/DOB-Permit-Viewer?v=1)
