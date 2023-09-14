@@ -1,21 +1,24 @@
 // Initialization
-let showPercentCheckbox = document.querySelector("#showPercent");
+let showPercents = document.querySelector("#showPercent");
 
-// Check if the checkbox state is stored in Chrome storage
-chrome.storage.local.get("showPercent", function(data) {
-  if (data.showPercent) {
-    // Set the checkbox state to true
-    showPercentCheckbox.checked = true;
-  }
+// Add an event listener to the dropdown to listen for changes in the selected option
+showPercents.addEventListener("change", function() {
+  // Get the selected option
+  let showPercentSelect = showPercents.value;
+  // Store the selected option in chrome.storage
+  chrome.storage.local.set({ "showPercentSelect": showPercentSelect });
 });
 
-// Add an event listener to the checkbox to store its state when it changes
-showPercentCheckbox.addEventListener("change", function() {
-  chrome.storage.local.set({ "showPercent": showPercentCheckbox.checked });
-  chrome.storage.local.get("showPercent", function(data) {
-    if (data.showPercent) {
-      // Set the checkbox state to true
-      showPercentCheckbox.checked = true;
+// When the page loads, retrieve the selected option from chrome.storage and set the selected option of the dropdown
+window.addEventListener("load", function() {
+  chrome.storage.local.get("showPercentSelect", function(result) {
+    let showPercentSelect = result.showPercentSelect;
+    if (showPercentSelect) {
+      showPercents.value = showPercentSelect;
+    }
+    else {
+      showPercents.value = 1;
+      showPercentSelect = 1;
     }
   });
 });
