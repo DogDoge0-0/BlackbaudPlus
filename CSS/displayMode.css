@@ -503,6 +503,20 @@ html.dark-mode ul.nav-pills li a:hover {
 html.dark-mode ul.nav-pills li a i:hover {
   background-color: #4f4f4f!important;
 }
+html.dark-mode div.tox-toolbar__primary {
+	border-bottom: 1px solid #ccc!important;
+}
+html.dark-mode div#BackButton,
+html.dark-mode div#BackButton div,
+html.dark-mode div#assignment-detail-linked-content div a {
+	color: #3366CC!important;
+}
+
+html.dark-mode div#BackButton:hover,
+html.dark-mode div#BackButton div:hover,
+html.dark-mode div#assignment-detail-linked-content div a:hover {
+	text-decoration: underline!important;
+}
 /* Spooky mode */
 html.spooky-mode {
   filter: invert(1);
