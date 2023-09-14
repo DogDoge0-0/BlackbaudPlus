@@ -33,24 +33,22 @@
       <option value="2" class="dropdownInner">Dark Mode</option>
       <option value="3" class="dropdownInner">Spooky Mode</option>
     </select>&nbsp;&nbsp;
-    <i class="bi bi-info-circle i"
-      title="This forces Blackbaud to change it's coloration from the default light theme to dark or spooky themes."></i>
+    <i class="bi bi-info-circle i" title="Ths changes Blackbaud's coloration from the default light theme to dark or spooky themes."></i>
   </div>
   <hr class="br">
   <div class="center align-items-center">
-    <p class="p">Show Percent on Hover:</p>&nbsp;
-    <div class="switch">
-      <input type="checkbox" id="showPercent" />
-      <label for="showPercent"></label>
-    </div>
-    &nbsp;&nbsp;
-    <i class="bi bi-info-circle i"
-      title="This forces Blackbaud to show the grade you got as a percent when hovering over the element that displays said grade."></i>
+    <p class="p">Show your grade as a:</p>&nbsp;
+    <select id="showPercent" class="dropdown">
+      <option value="1" selected class="dropdownInner">Fraction (Default)</option>
+      <option value="2" class="dropdownInner">Percent on hover</option>
+      <option value="3" class="dropdownInner">Percent</option>
+    </select>&nbsp;&nbsp;
+    <i class="bi bi-info-circle i" title="This shows your grade as a percent at different times, depending on your choice."></i>
   </div>
   <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdCJiNDgV3wTw99qKnl8qpzvUPmfRLVCoq-aVHMQ_WutoprUg/viewform"
     class="form">Submit
     Bug Report or Feature Suggestion</a>
-  <div class="version">Dev Build</div>
+  <div class="version">v0.0.1</div>
   <script src="../JS/popup.js"></script>
   <script src="../JS/displayMode.js"></script>
   <script src="../JS/showPercent.js"></script>
