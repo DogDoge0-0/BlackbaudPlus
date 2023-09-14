@@ -4,7 +4,6 @@ window.addEventListener("load", insertPercent);
 window.addEventListener("popstate", insertPercent);
 
 function insertPercent() {
-	console.log('Code Injected!');
 	// Store the current URL
 	let currentUrl = window.location.href;
 
@@ -17,7 +16,6 @@ function insertPercent() {
 
 				// Check if relevant HTML has been added
 				if (mutation.type === 'childList' && mutation.target.className === 'assignment-detail-status-label') {
-					console.log('Mutation Detected');
 					// Apply grade calculation and event listeners
 					applyGrade();
 				}
@@ -40,33 +38,41 @@ function insertPercent() {
 						let grade1 = parseFloat(match[1]);
 						let grade2 = parseFloat(match[2]);
 						let gradeFinal = grade1 / grade2 * 100;
-						console.log('First Num: ' + grade1);
-						console.log('Second Num: ' + grade2);
-						console.log('Final Num: ' + gradeFinal);
 						// Store the original and modified text content of the grade element
 						originalText = grade.textContent;
 						if (Math.abs(gradeFinal - Math.round(gradeFinal)) < 0.000001) {
 							percentText = ' Graded: ' + gradeFinal.toFixed(0) + '%';
-							console.log('YEP!');
 						}
 						else if (Math.round(gradeFinal) === gradeFinal) {
 							percentText = ' Graded: ' + gradeFinal.toFixed(0) + '%';
-							console.log('MAYBE!');
 						}
 						else {
 							percentText = ' Graded: ' + gradeFinal.toFixed(2) + '%';
-							console.log('NOPE!');
 						}
 					}
 					// Display the grade
-					grade.addEventListener('mouseover', function() {
-						grade.textContent = percentText;
-					});
+					chrome.storage.local.get('showPercentSelect', function(result) {
+						var showPercentSelectValue = result.showPercentSelect;
 
-					grade.addEventListener('mouseout', function() {
-						grade.textContent = originalText;
-					});
+						if (showPercentSelectValue == 1) {
+						} 
+						else if (showPercentSelectValue == 2) {
+							grade.addEventListener('mouseover', function() {
+								grade.textContent = percentText;
+							});
 
+							grade.addEventListener('mouseout', function() {
+								grade.textContent = originalText;
+							});
+						} 
+						else if (showPercentSelectValue == 3) {
+							grade.textContent = percentText;
+						} 
+						else {
+							alert('Grade Percent Converter unsuccessful, please send me the following error message:\nError: showPercentSelect unidentifiable, unable to parse input.');
+							return;
+						}
+					});
 				}
 			});
 		}
@@ -86,13 +92,13 @@ function insertPercent() {
 		}
 	});
 }
-chrome.storage.local.get('showPercent', function(result) {
+chrome.storage.local.get('showPercent', function() {
 
-  // Add event listener for changes to showPercent
-  chrome.storage.onChanged.addListener(function(changes, namespace) {
-    if ('showPercent' in changes) {
-      // Reload the page
-      location.reload();
-    }
-  });
+	// Add event listener for changes to showPercent
+	chrome.storage.onChanged.addListener(function(changes) {
+		if ('showPercentSelect' in changes) {
+			// Reload the page
+			location.reload();
+		}
+	});
 });
