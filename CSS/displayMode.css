@@ -8,6 +8,11 @@ html.light-mode div#assignment-detail-linked-content div a:hover {
 	color: #007ca6!important;
 }
 
+html.light-mode div.online-submission-text-container div a:hover {
+	text-decoration: underline!important;
+	color: #007ca6!important;
+}
+
 html.light-mode input#assignmentSearchBox,
 html.light-mode input#assignmentFilterEndDatePicker,
 html.light-mode input#assignmentFilterStartDatePicker {
@@ -212,11 +217,6 @@ html.dark-mode td button {
 
 html.dark-mode div#site-main div label.active {
 	background-color: #404040!important;
-}
-
-html.dark-mode div.coursesContainer div:hover,
-html.dark-mode a *:hover {
-  background-color: #404040!important;
 }
 
 html.dark-mode div.progress-bar {
@@ -432,6 +432,14 @@ html.dark-mode div.bb-tile-content-section div#coursesContainer div.row:nth-chil
   background-color: #2e2e2e!important;
 }
 
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row div.col-md-3 a h3:hover(even) {
+	background-color: #333!important;
+}
+
+html.dark-mode div.bb-tile-content-section div#coursesContainer div.row div.col-md-3 a h3:hover(odd) {
+	background-color: #2e2e2e!important;
+}
+
 html.dark-mode div#site-main div div.label-info {
   background-color: #81d4f7!important;
 }
@@ -517,6 +525,18 @@ html.dark-mode div#BackButton div:hover,
 html.dark-mode div#assignment-detail-linked-content div a:hover {
 	text-decoration: underline!important;
 }
+
+html.dark-mode .sky-padding-even-large {
+	background-color: #333!important;
+}
+
+html.dark-mode div.online-submission-text-container div a {
+	color: #3366CC!important;
+}
+
+html.dark-mode div.online-submission-text-container div a:hover {
+	text-decoration: underline!important;
+}
 /* Spooky mode */
 html.spooky-mode {
   filter: invert(1);
@@ -548,4 +568,9 @@ html.spooky-mode input#assignmentSearchBox,
 html.spooky-mode input#assignmentFilterEndDatePicker,
 html.spooky-mode input#assignmentFilterStartDatePicker {
 	border-radius: 5px;
+}
+
+html.spooky-mode div.online-submission-text-container div a:hover {
+	text-decoration: underline!important;
+	color: #007ca6!important;
 }
