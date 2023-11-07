@@ -1,6 +1,6 @@
 {
-  "name": "Blackbaud Plus",
-  "description": "An extension to improve the way Blackbaud functions. Very customizable.",
+  "name": "BlackbaudPlus Dev Build",
+  "description": "An extension to improve the way Blackbaud functions. Very customizable. Dev Build",
   "version": "0.0.1",
   "manifest_version": 3,
   "background": {
@@ -27,8 +27,9 @@
         "https://app.blackbaud.com/*"
       ],
       "js": [
-        "JS/displayModeLink.js",
-        "JS/showPercentLink.js"
+        "JS/displayMode/displayModeLink.js",
+        "JS/showPercent/showPercentLink.js",
+				"JS/letterTooltip/letterTooltipLink.js"
       ],
       "css": [
         "CSS/displayMode.css"
