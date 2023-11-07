@@ -2,8 +2,8 @@
 html {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgb(111, 188, 67) 0%, rgb(4, 175, 226) 100%);
-  height: 600px;
   width: 450px;
+	height: 400px;
 }
 body {
   background: none;
@@ -31,6 +31,14 @@ body {
   color: lightgray;
   font-family: sans-serif;
   text-align: center;
+  font-size: 15pt;
+  font-weight: lighter;
+  margin: 0;
+}
+.p-left {
+  color: lightgray;
+  font-family: sans-serif;
+  text-align: left;
   font-size: 15pt;
   font-weight: lighter;
   margin: 0;
@@ -76,6 +84,7 @@ body {
   font-size: 10pt;
   background: none;
   color: lightgray;
+	max-width: 160px;
 }
 .dropdownInner {
   color: black;
