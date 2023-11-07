@@ -1,7 +1,7 @@
 {
   "name": "BlackbaudPlus Dev Build",
-  "description": "An extension to improve the way Blackbaud functions. Very customizable. Dev Build",
-  "version": "0.0.1",
+  "description": "An extension to improve the way Blackbaud functions. Very customizable.",
+  "version": "0.0.2",
   "manifest_version": 3,
   "background": {
     "service_worker": "JS/background.js",
