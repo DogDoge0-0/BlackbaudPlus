@@ -1,6 +1,5 @@
 // Initialization
 let letterTooltipCheckbox = document.querySelector("#letterTooltip");
-chrome.storage.local.set({ "letterTooltipChecked": false });
 
 // Add an event listener to the checkbox to listen for changes in the checked state
 letterTooltipCheckbox.addEventListener("change", function() {
