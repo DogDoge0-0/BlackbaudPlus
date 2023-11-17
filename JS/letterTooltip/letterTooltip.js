@@ -12,8 +12,8 @@ letterTooltipCheckbox.addEventListener("change", function() {
 // When the page loads, retrieve the checked state from chrome.storage and set the checked state of the checkbox
 window.addEventListener("load", function() {
   chrome.storage.local.get("letterTooltipChecked", function(result) {
-    let letterTooltipChecked = result.letterTooltipChecked;
-    if (letterTooltipChecked) {
+    let letterTooltip = result.letterTooltipChecked;
+    if (letterTooltip) {
       letterTooltipCheckbox.checked = true;
     } else {
       letterTooltipCheckbox.checked = false;
