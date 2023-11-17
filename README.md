@@ -12,6 +12,4 @@ An extension to improve the way Blackbaud functions. Very customizable.
 - A major fix to how dark mode changes color, so that it will intelligently decide wether or not to change the elements color nased off of its normal display colors. The current system just changes everything, with no resolve for what it once looked like, this will add some color back into blackbaud, while keeping its dark mode framework.
 
 ## Links
-- [Development Trello](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board)
-
-- [Dev Build](https://replit.com/@CodeClash/DOB-Permit-Viewer?v=1)
+- [Chrome Web Store]([https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
