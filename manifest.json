@@ -10,6 +10,12 @@
       "CSS/light.css"
     ]
   },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "nfooknognpelndkdnjebmfimkelgkmoa",
+      "strict_min_version": "109.0"
+    }
+  },
   "action": {
     "default_popup": "HTML/popup.html"
   },
