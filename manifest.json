@@ -1,7 +1,7 @@
 {
   "name": "BlackbaudPlus",
   "description": "An extension to improve the way Blackbaud functions. Very customizable.",
-  "version": "0.0.2.1",
+  "version": "0.0.2",
   "manifest_version": 3,
   "background": {
     "web_accessible_resources": [
