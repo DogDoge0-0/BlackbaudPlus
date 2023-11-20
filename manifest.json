@@ -4,7 +4,6 @@
   "version": "0.0.2",
   "manifest_version": 3,
   "background": {
-    "service_worker": "JS/background.js",
     "web_accessible_resources": [
       "CSS/dark.css",
       "CSS/spooky.css",
@@ -29,7 +28,7 @@
       "js": [
         "JS/displayMode/displayModeLink.js",
         "JS/showPercent/showPercentLink.js",
-				"JS/letterTooltip/letterTooltipLink.js"
+	"JS/letterTooltip/letterTooltipLink.js"
       ],
       "css": [
         "CSS/displayMode.css"
