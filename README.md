@@ -13,3 +13,4 @@ An extension to improve the way Blackbaud functions. Very customizable.
 
 ## Links
 - [Chrome Web Store](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
+- Microsoft Edge Add-On Store -> In Review, should come online in 7 days as of 11/20/23
