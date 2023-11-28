@@ -13,5 +13,5 @@ An extension to improve the way Blackbaud functions. Very customizable.
 - A system to color-code the calander based off of what class it is connected to.
 
 ## Get it From
-- [Chrome Web Store](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
 - [Edge Add-On Store](https://microsoftedge.microsoft.com/addons/detail/blackbaudplus/akkcankhfpclbknaeckpnmlkcangdpgn)
