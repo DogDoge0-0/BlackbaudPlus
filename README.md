@@ -15,5 +15,5 @@ An extension to improve the way Blackbaud functions. Very customizable.
 ## Get it From
 - [Chrome Web Store](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
 - [Firefox Add-On Store](https://addons.mozilla.org/en-US/firefox/addon/blackbaudplus/)
-  - The firefox version is still under revivew as of this time, allow up to 24hrs for it to be published.
+  - The firefox version is still under review as of this time, allow up to 24hrs for it to be published.
 - [Edge Add-On Store](https://microsoftedge.microsoft.com/addons/detail/blackbaudplus/akkcankhfpclbknaeckpnmlkcangdpgn)
