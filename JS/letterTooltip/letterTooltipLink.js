@@ -32,34 +32,34 @@ function applyGrade() {
 			// Add grade conversion to A <> F
 			function convertToLetterGrade(gradeFinal) {
 				if (gradeFinal >= 93) {
-					return 'A';
+					return 'n: A';
 				} else if (gradeFinal >= 90) {
-					return 'A-';
+					return 'n: A-';
 				} else if (gradeFinal >= 87) {
-					return 'B+';
+					return ': B+';
 				} else if (gradeFinal >= 83) {
-					return 'B';
+					return ': B';
 				} else if (gradeFinal >= 80) {
-					return 'B-';
+					return ': B-';
 				} else if (gradeFinal >= 77) {
-					return 'C+';
+					return ': C+';
 				} else if (gradeFinal >= 73) {
-					return 'C';		
+					return ': C';		
 				} else if (gradeFinal >= 70) {
-					return 'C-';
+					return ': C-';
 				} else if (gradeFinal >= 67) {
-					return 'D+';
+					return ': D+';
 				} else if (gradeFinal >= 63) {
-					return 'D';
+					return ': D';
 				} else if (gradeFinal >= 60) {
-					return 'D-';
+					return ': D-';
 				} else {
-					return 'F';
+					return ': F';
 				}
 			}
 			let letterGrade = convertToLetterGrade(gradeFinal);
 			// Set the title of the element
-			document.querySelector('.assignment-detail-status-label').title = "This is an: "+letterGrade;
+			document.querySelector('.assignment-detail-status-label').title = "This is a" +letterGrade;
 		}
 	}
 		,)
