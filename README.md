@@ -10,6 +10,7 @@ An extension to improve the way Blackbaud functions. Very customizable.
 
 ### Under Development/Planned Updates
 - A major fix to how dark mode changes color, so that it will intelligently decide wether or not to change the elements color nased off of its normal display colors. The current system just changes everything, with no resolve for what it once looked like, this will add some color back into blackbaud, while keeping its dark mode framework.
+- A system to color-code the calander based off of what class it is connected to.
 
 ## Get it From
 - [Chrome Web Store](https://trello.com/b/BRSCtQ7N/blackbaudplus-trello-board](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
