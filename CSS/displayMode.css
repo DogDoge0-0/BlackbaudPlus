@@ -42,9 +42,9 @@ html.light-mode div#BackButton:hover {
 }
 
 /* Dark mode */
-html.dark-mode div#site-main div a.fc-event,
-html.dark-mode div#site-main div span.fc-content,
-html.dark-mode div#site-main div span.fc-title {
+html.dark-mode a.fc-event,
+html.dark-mode div.fc-content,
+html.dark-mode span.fc-title {
 	background-color: #9ec5e9!important;
 	border-color: #9ec5e9!important;
 	color: #000000!important;
