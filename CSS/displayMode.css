@@ -42,6 +42,12 @@ html.light-mode div#BackButton:hover {
 }
 
 /* Dark mode */
+html.dark-mode a.fc-event {
+	background-color: #9ec5e9!important;
+	border-color: #9ec5e9!important;
+}
+
+
 html.dark-mode img.bb-logo {
 	filter: invert(1)!important;
 }
