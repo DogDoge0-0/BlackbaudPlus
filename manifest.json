@@ -3,13 +3,6 @@
   "description": "An extension to improve the way Blackbaud functions. Very customizable.",
   "version": "0.1.2",
   "manifest_version": 3,
-  "background": {
-    "web_accessible_resources": [
-      "CSS/dark.css",
-      "CSS/spooky.css",
-      "CSS/light.css"
-    ]
-  },
   "browser_specific_settings": {
     "gecko": {
       "id": "nfooknognpelndkdnjebmfimkelgkmoa",
