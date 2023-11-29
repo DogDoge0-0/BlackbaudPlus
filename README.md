@@ -1,4 +1,4 @@
-# Blackbaud-Plus
+# BlackbaudPlus
 An extension to improve the way Blackbaud functions. Very customizable.
 
 ## Features
