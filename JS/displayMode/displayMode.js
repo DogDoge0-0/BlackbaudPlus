@@ -19,7 +19,6 @@ window.addEventListener("load", function() {
     else {
       displayModes.value = 1;
       displayModeSelect = 1;
-      chrome.storage.local.set({ "displayModeSelect": 1 });
     }
   });
 });
