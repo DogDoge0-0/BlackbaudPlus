@@ -13,7 +13,7 @@ displayModes.addEventListener("change", function() {
 window.addEventListener("load", function() {
   chrome.storage.local.get("displayModeSelect", function(result) {
     if (result.displayModeSelect) {
-      displayModes.value = displayModeSelect;
+      displayModes.value = result.displayModeSelect;
     }
     else {
       displayModes.value = 1;
