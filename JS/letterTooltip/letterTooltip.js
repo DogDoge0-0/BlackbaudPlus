@@ -19,10 +19,8 @@ window.addEventListener("load", function() {
         // Set the checked state of the checkbox based on the stored preference
         if (letterTooltip == true) {
             letterTooltipCheckbox.checked = true;
-            console.log("yippppeee");
         } else {
             letterTooltipCheckbox.checked = false;
-            console.log("awww");
         }
     });
 });
