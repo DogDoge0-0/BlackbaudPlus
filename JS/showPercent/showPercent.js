@@ -19,6 +19,7 @@ window.addEventListener("load", function() {
     else {
       showPercents.value = 1;
       showPercentSelect = 1;
+      chrome.storage.local.set({ "showPercentSelect": 1 });
     }
   });
 });
