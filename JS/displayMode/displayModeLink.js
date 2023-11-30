@@ -7,17 +7,17 @@ function applyDisplayMode(displayModeSelect) {
   htmlTag.classList.remove('dark-mode', 'spooky-mode');
 
   // Apply the selected display mode
-	if (displayModeSelect === '1') {
+	if (displayModeSelect == 1) {
 		htmlTag.classList.add('light-mode');
 		htmlTag.classList.remove('dark-mode');
 		htmlTag.classList.remove('spooky-mode');
 	}
-  else if (displayModeSelect === '2') {
+  else if (displayModeSelect == 2) {
     htmlTag.classList.add('dark-mode')
 		htmlTag.classList.remove('light-mode');
 		htmlTag.classList.remove('spooky-mode');
   } 
-	else if (displayModeSelect === '3') {
+	else if (displayModeSelect == 3) {
     htmlTag.classList.add('spooky-mode');
 		htmlTag.classList.remove('light-mode');
 		htmlTag.classList.remove('dark-mode');
