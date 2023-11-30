@@ -18,7 +18,6 @@ window.addEventListener("load", function() {
     else {
       displayModes.value = 1;
       chrome.storage.local.set({ "displayModeSelect": 1 });
-      console.log('Rip');
     }
   });
 });
