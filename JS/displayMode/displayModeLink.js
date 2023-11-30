@@ -23,7 +23,7 @@ function applyDisplayMode(displayModeSelect) {
 		htmlTag.classList.remove('dark-mode');
   }
 	else {
-		alert('Changing display theme unsucessful, please send me the following error message:\n Error: displayModeSelect unidentifiable, unable to parse input.')
+		alert('Changing display theme unsucessful, please send me the following error message:\nError: displayModeSelect unidentifiable, unable to parse input.')
 	}
 }
 
