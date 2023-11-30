@@ -12,13 +12,12 @@ displayModes.addEventListener("change", function() {
 // When the page loads, retrieve the selected option from chrome.storage and set the selected option of the dropdown
 window.addEventListener("load", function() {
   chrome.storage.local.get("displayModeSelect", function(result) {
-    let displayModeSelect = result.displayModeSelect;
-    if (displayModeSelect) {
+    if (result.displayModeSelect) {
       displayModes.value = displayModeSelect;
     }
     else {
       displayModes.value = 1;
-      displayModeSelect = 1;
+      chrome.storage.local.set({ "displayModeSelect": 1 });
     }
   });
 });
