@@ -64,6 +64,15 @@ html.dark-mode div#site-main div .btn-info {
 	border-color: #81d4f7!important;
 }
 
+html.dark-mode div#site-main div .btn-link {
+	border: none!important;
+	color: #0099cc!important;
+}
+
+html.dark-mode div#site-main div .btn-link:hover {
+	color: #1ac6ff!important;
+}
+
 html.dark-mode div#site-main div a.fc-event,
 html.dark-mode div#site-main div div.fc-content,
 html.dark-mode div#site-main div span.fc-title {
