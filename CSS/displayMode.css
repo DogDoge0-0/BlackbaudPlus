@@ -534,8 +534,7 @@ html.dark-mode div.fadeBox {
 
 html.dark-mode .nav-tabs>li.active>a {
   background-color: #007ca6!important;
-  border-bottom: #007ca6!important;
-  border: transparent!important;
+  border: 1px solid #007ca6!important;
 }
 html.dark-mode .nav-tabs>li.inactive>a {
   background-color: transparent!important;
