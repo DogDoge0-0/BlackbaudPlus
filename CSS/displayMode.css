@@ -61,8 +61,8 @@ html.dark-mode div#site-main div button#missing-assignment:hover {
 	border-color: #ef4044!important;
 }
 
-html.dark-mode a.assignment-detail-link {
-	color: #007ca6!important;
+html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3) {
+	color: #0099cc!important;
 	background-color: transparent!important;
 }
 
