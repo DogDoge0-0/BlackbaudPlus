@@ -49,6 +49,13 @@ html.dark-mode div#site-main div .p3Red {
 	color: #ed5565!important;
 }
 
+html.dark-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
+	right: 0.5px!important;
+	top: -11px!important;
+	position: relative!important;
+}
+
+
 html.dark-mode div#site-main div .btn-success {
 	background-color: #b7da9b!important;
 	border-color: #b7da9b!important;
