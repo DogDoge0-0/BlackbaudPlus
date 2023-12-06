@@ -28,7 +28,7 @@ function applyDisplayMode(displayModeSelect) {
 chrome.storage.onChanged.addListener(function(changes) {
   if (changes.displayModeSelect) {
     let displayModeSelect = changes.displayModeSelect.newValue;
-
+		console.log("displayModeSelect " + displayModeSelect)
     // Apply the updated display mode
     applyDisplayMode(displayModeSelect);
   }
