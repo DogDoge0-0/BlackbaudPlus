@@ -33,7 +33,9 @@ chrome.storage.onChanged.addListener(function(changes) {
   }
 });
 window.addEventListener('load', function() {
-	let displayModeSelect = chrome.storage.local.get("displayModeSelect");
-	console.log("yo");
-  applyDisplayMode(result.displayModeSelect);
+    chrome.storage.local.get("displayModeSelect", function(data) {
+        let displayModeSelect = data.displayModeSelect;
+        console.log("yo");
+        applyDisplayMode(displayModeSelect);
+    });
 });
