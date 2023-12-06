@@ -537,6 +537,11 @@ html.dark-mode .nav-tabs>li.active>a {
   border-bottom: #007ca6!important;
   border: transparent!important;
 }
+html.dark-mode .nav-tabs>li.inactive>a {
+  background-color: transparent!important;
+  border: transparent!important;
+  border-bottom: #007ca6!important;
+}
 
 html.dark-mode .nav-tabs>li.active {
   border-bottom: #007ca6!important;
