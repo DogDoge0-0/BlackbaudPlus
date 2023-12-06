@@ -54,6 +54,11 @@ html.dark-mode div#site-main div .btn-success {
 	border-color: #b7da9b!important;
 }
 
+html.dark-mode div#site-main div .btn-warning {
+	background-color: #ffd597!important;
+	border-color: #ffd597!important;
+}
+
 html.dark-mode div#site-main div .btn-info {
 	background-color: #81d4f7!important;
 	border-color: #81d4f7!important;
