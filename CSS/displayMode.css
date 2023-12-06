@@ -62,14 +62,13 @@ html.dark-mode div#site-main div button#missing-assignment:hover {
 }
 
 html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3) a,
-html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3) p,
 html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(7) a,
-html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(7) p {
+html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(7) button {
 	color: #0099cc!important;
 	background-color: transparent!important;
 }
 
-html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3):hover {
+html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3) a:hover {
 	color: #00bfff!important;
 }
 
