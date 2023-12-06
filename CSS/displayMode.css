@@ -55,6 +55,11 @@ html.dark-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconCol
 	position: relative!important;
 }
 
+html.dark-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
+	position: relative;
+	top: -3px;
+}
+
 
 html.dark-mode div#site-main div .btn-success {
 	background-color: #b7da9b!important;
