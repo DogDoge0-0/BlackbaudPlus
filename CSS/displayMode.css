@@ -3,6 +3,7 @@
 html {
   filter: none;
 }
+
 html.light-mode div#assignment-detail-linked-content div a:hover {
 	text-decoration: underline solid #007ca6;
 	color: #007ca6!important;
@@ -17,6 +18,17 @@ html.light-mode input#assignmentSearchBox,
 html.light-mode input#assignmentFilterEndDatePicker,
 html.light-mode input#assignmentFilterStartDatePicker {
 	border-radius: 5px;
+}
+
+html.light-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
+	right: 0.5px!important;
+	top: -11px!important;
+	position: relative!important;
+}
+
+html.light-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
+	position: relative;
+	top: -3px;
 }
 
 html.light-mode a.topic-back-btn,
@@ -650,6 +662,17 @@ html.spooky-mode div#BackButton div *:hover {
 html.spooky-mode div#assignment-detail-linked-content div a:hover {
 	text-decoration: underline solid #007ca6;
 	color: #007ca6!important;
+}
+
+html.spooky-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
+	right: 0.5px!important;
+	top: -11px!important;
+	position: relative!important;
+}
+
+html.spooky-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
+	position: relative;
+	top: -3px;
 }
 
 html.spooky-mode input#assignmentSearchBox,
