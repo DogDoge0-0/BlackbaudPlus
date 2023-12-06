@@ -54,6 +54,11 @@ html.dark-mode div#site-main div button#missing-assignment {
 	color: #ed5565!important;
 	border-color: #ef4044!important;
 }
+html.dark-mode div#site-main div button#missing-assignment:hover {
+	color: #FFFFFF!important;
+	background-color: #ef4044!important;
+	border-color: #ef4044!important;
+}
 
 html.dark-mode img.bb-logo {
 	filter: invert(1)!important;
