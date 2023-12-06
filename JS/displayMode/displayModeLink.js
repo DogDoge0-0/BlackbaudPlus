@@ -34,4 +34,4 @@ chrome.storage.onChanged.addListener(function(changes) {
 });
 window.onLoad = function() {
     applyDisplayMode(displayModeSelect)
-});
+}
