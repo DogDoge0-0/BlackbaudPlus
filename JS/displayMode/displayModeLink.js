@@ -32,6 +32,6 @@ chrome.storage.onChanged.addListener(function(changes) {
     applyDisplayMode(displayModeSelect);
   }
 });
-document.addEventListener('DOMContentLoaded', function() {
+window.addEventListener('DOMContentLoaded', function() {
     applyDisplayMode(displayModeSelect)
 });
