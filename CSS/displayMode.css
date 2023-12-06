@@ -46,7 +46,17 @@ html.dark-mode div#site-main div div.arrow {
 	background: transparent!important;
 }
 html.dark-mode div#site-main div .p3Red {
-	background-color: #ed5565!important;
+	color: #ed5565!important;
+}
+
+html.dark-mode div#site-main div .btn-success {
+	background-color: #b7da9b!important;
+	border-color: #b7da9b!important;
+}
+
+html.dark-mode div#site-main div .btn-info {
+	background-color: #81d4f7!important;
+	border-color: #81d4f7!important;
 }
 
 html.dark-mode div#site-main div a.fc-event,
