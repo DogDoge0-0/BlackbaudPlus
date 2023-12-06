@@ -32,7 +32,7 @@ chrome.storage.onChanged.addListener(function(changes) {
     applyDisplayMode(displayModeSelect);
   }
 });
-window.onLoad = function() {
+window.addEventListener('load', function() {
 	console.log("yo");
     applyDisplayMode(displayModeSelect);
-}
+});
