@@ -32,8 +32,6 @@ chrome.storage.onChanged.addListener(function(changes) {
     applyDisplayMode(displayModeSelect);
   }
 });
-chrome.runtime.onMessage.addListener(function (message, sender, sendResponse) {
-  if (message.action === 'pageLoaded') {
+document.addEventListener('DOMContentLoaded', function() {
     applyDisplayMode(displayModeSelect)
-  }
 });
