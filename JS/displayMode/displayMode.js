@@ -1,6 +1,8 @@
 // Initialization
 let displayModes = document.querySelector("#displayMode");
-chrome.storage.local.set({ "displayModeSelect": 1 });
+if (displayModes.value == 1) {
+  chrome.storage.local.set({ "displayModeSelect": 1 });
+}
 // Add an event listener to the dropdown to listen for changes in the selected option
 displayModes.addEventListener("change", function() {
   // Get the selected option
