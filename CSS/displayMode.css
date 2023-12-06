@@ -68,7 +68,8 @@ html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(7) butto
 	background-color: transparent!important;
 }
 
-html.dark-mode div#coursesContainer div.row div.col-md-3 a {
+html.dark-mode div#coursesContainer div.row div.col-md-3 a,
+html.dark-mode div#coursesContainer div.row div.col-md-3 a h3 {
 	color: #0099cc!important;
 	background-color: transparent!important;
 }
@@ -77,7 +78,8 @@ html.dark-mode tbody#assignment-center-assignment-items tr td:nth-child(3) a:hov
 	color: #1ac6ff!important;
 }
 
-html.dark-mode div#coursesContainer div.row div.col-md-3 a:hover {
+html.dark-mode div#coursesContainer div.row div.col-md-3 a:hover,
+html.dark-mode div#coursesContainer div.row div.col-md-3 a h3:hover {
 	color: #1ac6ff!important;
 	background-color: transparent!important;
 }
