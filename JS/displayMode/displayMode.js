@@ -16,7 +16,3 @@ window.addEventListener("load", function() {
     }
   });
 });
-// Just in case
-if (displayModes.value == '1') {
-  chrome.storage.local.set({ "displayModeSelect": 1 });
-}
