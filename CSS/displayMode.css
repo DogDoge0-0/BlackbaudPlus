@@ -21,14 +21,13 @@ html.light-mode input#assignmentFilterStartDatePicker {
 }
 
 html.light-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
-	right: 0.5px!important;
 	top: -11px!important;
 	position: relative!important;
 }
 
 html.light-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
-	position: relative;
-	top: -3px;
+	position: relative!important;
+	top: -3px!important;
 }
 
 html.light-mode a.topic-back-btn,
@@ -63,14 +62,12 @@ html.dark-mode div#site-main div .p3Red {
 
 html.dark-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
 	position: relative!important;
-	top: -11px;
-	left: 0;
+	top: -11px!important;
 }
 
 html.dark-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
-	position: relative;
-	top: -3px;
-	left: 0;
+	position: relative!important;
+	top: -3px!important;
 }
 
 
@@ -666,14 +663,13 @@ html.spooky-mode div#assignment-detail-linked-content div a:hover {
 }
 
 html.spooky-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
-	right: 0.5px!important;
 	top: -11px!important;
 	position: relative!important;
 }
 
 html.spooky-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
-	position: relative;
-	top: -3px;
+	position: relative!important;
+	top: -3px!important;
 }
 
 html.spooky-mode input#assignmentSearchBox,
