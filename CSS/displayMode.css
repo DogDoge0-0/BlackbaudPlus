@@ -63,14 +63,14 @@ html.dark-mode div#site-main div .p3Red {
 
 html.dark-mode div.calendarHeader div.row div.col-xs-2 span.label-info i.iconColor {
 	position: relative!important;
-	top: 50%;
-	left: 50%;
+	top: 0;
+	left: 0;
 }
 
 html.dark-mode div.calendarHeader div.row div.col-xs-2 div.bb-btn-secondary i.iconColor {
 	position: relative;
-	top: 50%;
-	left: 50%;
+	top: 0;
+	left: 0;
 }
 
 
