@@ -6,7 +6,7 @@ An extension to improve the way Blackbaud functions. Very customizable.
 ### Current Features
 - Dark/Spooky Display Themes.
 - Convert grades from Fraction to Percent, shown as modification to the text element.
-- Convert grades from Percent to Letter, shown as a tooltip.
+- Convert grades from Fraction to Letter, shown as a tooltip.
 
 ### Under Development/Planned Updates
 - A major fix to how dark mode changes color, so that it will intelligently decide wether or not to change the elements color nased off of its normal display colors. The current system just changes everything, with no resolve for what it once looked like, this will add some color back into blackbaud, while keeping its dark mode framework.
