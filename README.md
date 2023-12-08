@@ -14,9 +14,6 @@ An extension to improve the way Blackbaud functions. Very customizable.
 
 ## Get it From
 - [Chrome Web Store](https://chromewebstore.google.com/detail/blackbaud-plus/nfooknognpelndkdnjebmfimkelgkmoa?hl=en)
-  - Chrome takes ~6 hours to update the extension after I publish the release here
 - Firefox Add-On Store
   - This version is broken and so I am working on a fix, when it is done I will link the add-on page here again.
-  - Firefox takes ~6 hours to update the extension after I publish the release here
 - [Edge Add-On Store](https://microsoftedge.microsoft.com/addons/detail/blackbaudplus/akkcankhfpclbknaeckpnmlkcangdpgn)
-  - Edge takes ~170 hours (~7 days) to update the extension after I publish the release here
