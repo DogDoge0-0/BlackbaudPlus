@@ -35,7 +35,6 @@ chrome.storage.onChanged.addListener(function(changes) {
 window.addEventListener('load', function() {
     chrome.storage.local.get("displayModeSelect", function(data) {
         let displayModeSelect = data.displayModeSelect;
-        console.log("yo");
         applyDisplayMode(displayModeSelect);
     });
 });
